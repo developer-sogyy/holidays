@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: center;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: slateblue;
     background-color:lightcoral;
     overflow: hidden;
