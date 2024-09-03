@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: cursive;
+    background-color: slateblue;
+    background-color:lightcoral;
+    overflow: hidden;
+  }
+  
+  h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  .mainTitle {
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .countdown {
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown div {
+    margin: 0 15px;
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-top: -25px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .countdown div::before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    font-size: 0.35em;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    width: 100%;
+    height: 35px;
+  }
+  
+  .countdown #weekPodz::before {
+    content: "Weeks";
+  }
+  .countdown #dayPodz::before {
+    content: "Days";
+  }
+  .countdown #hourPodz::before {
+    content: "Hours";
+  }
+  .countdown #minutePodz::before {
+    content: "Minutes";
+  }
+  .countdown #secondPodz::before {
+    content: "Seconds";
+  }
+  .countdown #milisecondPodz::before {
+    content: "Miliseconds";
+  }
+  
+  
+  .countdown #weekVan::before {
+    content: "Weeks";
+  }
+  .countdown #dayVan::before {
+    content: "Days";
+  }
+  .countdown #hourVan::before {
+    content: "Hours";
+  }
+  .countdown #minuteVan::before {
+    content: "Minutes";
+  }
+  .countdown #secondVan::before {
+    content: "Seconds";
+  }
+  .countdown #milisecondVan::before {
+    content: "Miliseconds";
+  }
+
+
+  .countdown #weekPol::before {
+    content: "Weeks";
+  }
+  .countdown #dayPol::before {
+    content: "Days";
+  }
+  .countdown #hourPol::before {
+    content: "Hours";
+  }
+  .countdown #minutePol::before {
+    content: "Minutes";
+  }
+  .countdown #secondPol::before {
+    content: "Seconds";
+  }
+  .countdown #milisecondPol::before {
+    content: "Miliseconds";
+  }
+  
+  
+  @media screen and (max-width: 600px)
+  {
+    h2 {
+    letter-spacing: 2px;
+  }
+  
+    .mainTitle {
+    font-size: 1.5em;
+  }
+  
+    .countdown {
+    margin: 25px;
+    width: 100%;
+  }
+  
+  .countdown div {
+    margin: 0 10px;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: -25px;
+  }
+  }
+
+  .about {
+    color: white;
+    text-align: center;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+  }
