@@ -136,7 +136,7 @@ body {
   }
   
   .countdown div {
-    margin: 0 10px;
+    margin: -30px 10px;
     font-size: 1em;
     font-weight: 400;
     margin-top: -25px;
