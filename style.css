@@ -61,62 +61,62 @@ body {
   }
   
   .countdown #weekPodz::before {
-    content: "Weeks";
+    content: "Týdnů";
   }
   .countdown #dayPodz::before {
-    content: "Days";
+    content: "Dnů";
   }
   .countdown #hourPodz::before {
-    content: "Hours";
+    content: "Hodin";
   }
   .countdown #minutePodz::before {
-    content: "Minutes";
+    content: "Minut";
   }
   .countdown #secondPodz::before {
-    content: "Seconds";
+    content: "Sekund";
   }
   .countdown #milisecondPodz::before {
-    content: "Miliseconds";
+    content: "Milisekund";
   }
   
   
   .countdown #weekVan::before {
-    content: "Weeks";
+    content: "Týdnů";
   }
   .countdown #dayVan::before {
-    content: "Days";
+    content: "Dnů";
   }
   .countdown #hourVan::before {
-    content: "Hours";
+    content: "Hodin";
   }
   .countdown #minuteVan::before {
-    content: "Minutes";
+    content: "Minut";
   }
   .countdown #secondVan::before {
-    content: "Seconds";
+    content: "Sekund";
   }
   .countdown #milisecondVan::before {
-    content: "Miliseconds";
+    content: "Milisekund";
   }
 
 
   .countdown #weekPol::before {
-    content: "Weeks";
+    content: "Týdnů";
   }
   .countdown #dayPol::before {
-    content: "Days";
+    content: "Dnů";
   }
   .countdown #hourPol::before {
-    content: "Hours";
+    content: "Hodin";
   }
   .countdown #minutePol::before {
-    content: "Minutes";
+    content: "Minut";
   }
   .countdown #secondPol::before {
-    content: "Seconds";
+    content: "Sekund";
   }
   .countdown #milisecondPol::before {
-    content: "Miliseconds";
+    content: "Milisekund";
   }
   
   
