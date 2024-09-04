@@ -25,6 +25,7 @@ const Podz = new Date("October 29, 2024 00:00:00").getTime();
 const Van = new Date("December 23, 2024 00:00:00").getTime();
 const Pol = new Date("February 3, 2025 00:00:00").getTime();
 
+let currentindex = 1;
 
 updateCountdownPodz();
 milPodz();
@@ -32,6 +33,7 @@ updateCountdownVan();
 milVan();
 updateCountdownPol();
 milPol();
+changeBg();
 
 
 function updateCountdownPodz() {
@@ -143,4 +145,17 @@ function milPol() {
 
   milisecondPolEl.innerText = ms;
   setTimeout(milPol, 1);
+}
+
+function changeBg() {
+    if (currentindex == 0) { 
+        document.body.style.backgroundColor = "#6a5acd";
+        currentindex = 1;
+    } else if (currentindex == 1) { 
+        document.body.style.backgroundColor = "#f08080";
+        currentindex = 0;
+    }
+    
+
+    setTimeout(changeBg, 30000);
 }
