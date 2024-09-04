@@ -153,6 +153,9 @@ function changeBg() {
         currentindex = 1;
     } else if (currentindex == 1) { 
         document.body.style.backgroundColor = "#f08080";
+        currentindex = 2;
+    } else if (currentindex == 2) {
+        document.body.style.backgroundColor = "#791080";
         currentindex = 0;
     }
     
